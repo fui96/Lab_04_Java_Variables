@@ -11,12 +11,22 @@ public class Main {
         int intDifference;
         int intQuotient;
         int intModulo;
+        //Doubles
         double DoubleOperandA = 1.7;
         double DoubleOperandB = 4.5;
         double DoubleSum;
         double DoubleProduct;
         double DoubleDifference;
         double DoubleQuotient;
+        //Fun Variables
+        int Siblings = 3;
+        String BirthMonth = "September";
+        String BirthYear = "2005";
+        String Car = "2017 Kia Optima";
+        String CurrentJob = "Best Buy Advisor";
+        Boolean IsItRaining = false;
+
+
         // End Declaration
 
         intSum = intOperandA + intOperandB;
@@ -37,5 +47,7 @@ public class Main {
         System.out.println(DoubleDifference + " is the difference of " + DoubleOperandA + " and " + DoubleOperandB);
         DoubleQuotient = DoubleOperandA / DoubleOperandB;
         System.out.println(DoubleQuotient + " is the quotient of " + DoubleOperandA + " and " + DoubleOperandB);
+
+
     }
 }
